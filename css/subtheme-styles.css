@@ -37,6 +37,9 @@ body.admin-menu.adminimal-menu::before {
   padding-top: 0.8em;
   float: right;
 }
+#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
+    position: fixed;
+}
 }
 
 blockquote {
