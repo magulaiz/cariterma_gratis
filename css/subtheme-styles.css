@@ -1,5 +1,10 @@
 /* Gratis subtheme css file */
 
+.masonry-processed {
+  width: 90% !important;
+  margin: 0 auto !important;
+}
+
 body.page-admin.admin-menu.adminimal-menu {
     margin-top: 29px !important;
 }
@@ -126,6 +131,7 @@ blockquote {
     font-size: 1.5em;
 }
 }
+
 .escale-width-150,
 .escale-width-150 a {
     width: 150px;
@@ -147,3 +153,19 @@ blockquote {
     margin-bottom: 10px;
     display: block;
 }
+
+.view-content.masonry-processed {
+  margin: 0 auto !important;
+  border: thin solid red;
+}
+
+.elastic-grid figure {
+    float: right;
+    padding: 5px;
+    margin: 0px;
+    width: 50%;
+}
+.elastic-grid figure figcaption {
+    display: none;
+}
+
