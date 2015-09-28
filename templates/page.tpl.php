@@ -83,11 +83,35 @@
       <!-- header -->
       <div id="header-bar" class="l-header-wrapper" role="banner">
 
- <?php if (!empty($page['full_width_highlight'])): ?>
-   <div class="l-fullwidth-highlight">
-      <?php print render($page['full_width_highlight']); ?>
-    </div>
-  <?php endif; ?>
+        <?php if ($logo): ?>
+          <div class="l-logo">
+              <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?> » <?php print $site_slogan; ?>">
+                <img id="logo-img" src="<?php print $logo; ?>" alt="<?php print $site_name; ?> » <?php print $site_slogan; ?>"/></a>
+            </div><!--// l-logo-->
+            <?php endif; ?>
+
+          <?php if ($site_slogan || $site_name) : ?>
+          <div class="l-branding">
+
+                <?php if ($site_name) : ?>
+                  <h1 class="site-name">
+                    <a href="<?php print $front_page; ?>">
+                      <?php print $site_name; ?></a>
+                  </h1>
+              <?php endif; ?>
+
+                  <?php if ($site_slogan) : ?>
+                    <h3 class="site-slogan"><?php print $site_slogan; ?></h3>
+                <?php endif; ?>
+
+          </div><!--//branding-->
+            <?php endif; ?>
+
+        <?php if (!empty($page['full_width_highlight'])): ?>
+          <div class="l-fullwidth-highlight">
+            <?php print render($page['full_width_highlight']); ?>
+          </div>
+        <?php endif; ?>
 
       </div><!-- // l-header -wrapper-->
 
