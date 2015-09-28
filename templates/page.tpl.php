@@ -82,52 +82,43 @@
 
       <!-- header -->
       <div id="header-bar" class="l-header-wrapper" role="banner">
-        <header class="l-header l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
+       <header class="l-header l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
 
-          <?php if ($logo): ?>
-          <div class="l-logo">
-              <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?> » <?php print $site_slogan; ?>">
-                <img id="logo-img" src="<?php print $logo; ?>" alt="<?php print $site_name; ?> » <?php print $site_slogan; ?>"/></a>
-            </div><!--// l-logo-->
-            <?php endif; ?>
-
-          <?php if ($site_slogan || $site_name) : ?>
-          <div class="l-branding">
-
- 	  <?php if ($main_menu): ?>
-	    <a id="off-canvas-left-show" href="#off-canvas" class="l-off-canvas-show l-off-canvas-show--left"><?php print t('Show Navigation'); ?></a>
-	    <div id="off-canvas-left" class="l-off-canvas l-off-canvas--left">
-	      <a id="off-canvas-left-hide" href="#" class="l-off-canvas-hide l-off-canvas-hide--left"><?php print t('Hide Navigation'); ?></a>
-
-	      <div class="main-menu-wrapper">
-
-	        <?php print render($primary_nav); ?>
-	      </div>
-	    </div><!-- // off-canvas-left -->
-	  <?php endif; ?>
-	  <!-- //main menu -->
-         </div><!--//branding-->
-            <?php endif; ?>
+ <?php if (!empty($page['full_width_highlight'])): ?>
+   <div class="l-fullwidth-highlight">
+      <?php print render($page['full_width_highlight']); ?>
+    </div>
+  <?php endif; ?>
+     </header>
+      </div><!-- // l-header -wrapper-->
 
       <div id="menu-wrapper" class="l-menu-wrapper main-menu" role="navigation">
-	<div class="l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
+        <div class="l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
 
+          <?php if ($main_menu): ?>
+            <a id="off-canvas-left-show" href="#off-canvas" class="l-off-canvas-show l-off-canvas-show--left"><?php print t('Show Navigation'); ?></a>
+            <div id="off-canvas-left" class="l-off-canvas l-off-canvas--left">
+              <a id="off-canvas-left-hide" href="#" class="l-off-canvas-hide l-off-canvas-hide--left"><?php print t('Hide Navigation'); ?></a>
 
-	  <!-- for third party menu systems or modules-->
-	  <?php if ($page['thirdparty_menu']): ?>
-	    <?php print render($page['thirdparty_menu']); ?>
-	  <?php endif; ?>
+              <div class="main-menu-wrapper">
 
-	</div>
+                <?php print render($primary_nav); ?>
+              </div>
+            </div><!-- // off-canvas-left -->
+          <?php endif; ?>
+          <!-- //main menu -->
+
+          <!-- for third party menu systems or modules-->
+          <?php if ($page['thirdparty_menu']): ?>
+            <?php print render($page['thirdparty_menu']); ?>
+          <?php endif; ?>
+
+        </div>
       </div>
-
-
-        </header>
-      </div><!-- // l-header -wrapper-->
 
 <div class="l-content-wrap">
 
-  <?php if (!empty($page['full_width_highlight'])): ?>
+ <?php if (!empty($page['full_width_highlight'])): ?>
     <div class="l-fullwidth-highlight">
       <?php print render($page['full_width_highlight']); ?>
     </div>

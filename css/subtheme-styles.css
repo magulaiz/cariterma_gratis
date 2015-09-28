@@ -1,10 +1,5 @@
 /* Gratis subtheme css file */
 
-.masonry-processed {
-  width: 90% !important;
-  margin: 0 auto !important;
-}
-
 body.page-admin.admin-menu.adminimal-menu {
     margin-top: 29px !important;
 }
@@ -20,15 +15,73 @@ body.admin-menu.adminimal-menu::before {
 #header-bar, blockquote  {
     background: none;
 }
+
 .l-off-canvas-show {
     background: transparent url("../images/theme-sprite.png") no-repeat scroll 0px -6px;
 }
+
 #menu-wrapper {
     box-shadow: 0px 3px 10px;
 }
+
 .main-menu-wrapper > ul ul {
     z-index: 100;
 }
+.masonry-item #masonry-row-title,
+.masonry-item #masonry-row-title a {
+    padding: 5px;
+    font-size: 0.8em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+.elastic-grid {
+    text-align: center;
+}
+.elastic-grid-thumbnail .image {
+  xposition: relative;
+}
+.elastic-grid-thumbnail .image .title a {
+  position: relative;
+  top: -100%;
+  font-size: 0.85em;
+  text-align: left;
+  color: white;
+  left: 0;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.37);
+  width: 100%;
+  text-shadow: -1px -1px 1px black;
+  font-weight: 600;
+}
+ul.elastic-grid figure,
+.panel-bricks-25-75-stacked figure {
+    float: none;
+    margin: 0px;
+    width: 100%;
+    padding: 0.1em;
+}
+ul.elastic-grid figure figcaption,
+.panel-bricks-25-75-stacked figure figcaption {
+    display: none;
+}
+
+@media screen and (min-width: 0.47em) {
+ul.elastic-grid figure,
+.panel-bricks-25-75-stacked figure {
+    float: right;
+    margin: 0px;
+    width: 50%;
+    padding: 0.1em;
+    min-width: 75px;
+}
+ul.elastic-grid figure figcaption,
+.panel-bricks-25-75-stacked figure figcaption {
+    display: none;
+}
+}
+
 
 @media screen and (min-width: 60.01em) {
 .stickynav-active .main-menu-wrapper::before {
@@ -99,7 +152,7 @@ blockquote {
 }
 #block-views-flexsliders-block .field-name-field-title .field-item {
     background-color: rgba(0, 0, 0, 0.8);
-    color: rgb(195, 195, 195);
+    color: rgba(195, 195, 195, 1);
     font-size: 1.5em;
     font-weight: bold;
     bottom: 50%;
@@ -144,28 +197,3 @@ blockquote {
 .escale-width-150 a {
     width: 250px;
 }
-.masonry-item #masonry-row-title,
-.masonry-item #masonry-row-title a {
-    padding: 5px;
-    font-size: 0.8em;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.view-content.masonry-processed {
-  margin: 0 auto !important;
-  border: thin solid red;
-}
-
-.elastic-grid figure {
-    float: right;
-    padding: 5px;
-    margin: 0px;
-    width: 50%;
-}
-.elastic-grid figure figcaption {
-    display: none;
-}
-
