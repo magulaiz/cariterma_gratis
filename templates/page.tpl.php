@@ -102,35 +102,37 @@
 
               <div class="main-menu-wrapper">
 
+              <?php if ($logo): ?>
+                <div class="l-logo">
+                    <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?> » <?php print $site_slogan; ?>">
+                      <img id="logo-img" src="<?php print $logo; ?>" alt="<?php print $site_name; ?> » <?php print $site_slogan; ?>"/></a>
+                  </div><!--// l-logo-->
+                  <?php endif; ?>
+
+                <?php if ($site_slogan || $site_name) : ?>
+                <div class="l-branding">
+
+                      <?php if ($site_name) : ?>
+                        <h1 class="site-name">
+                          <a href="<?php print $front_page; ?>">
+                            <?php print $site_name; ?></a>
+                        </h1>
+                    <?php endif; ?>
+
+                        <?php if ($site_slogan) : ?>
+                          <h3 class="site-slogan"><?php print $site_slogan; ?></h3>
+                      <?php endif; ?>
+
+                </div><!--//branding-->
+                  <?php endif; ?>
+
+
                 <?php print render($primary_nav); ?>
               </div>
             </div><!-- // off-canvas-left -->
           <?php endif; ?>
           <!-- //main menu -->
 
-        <?php if ($logo): ?>
-          <div class="l-logo">
-              <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?> » <?php print $site_slogan; ?>">
-                <img id="logo-img" src="<?php print $logo; ?>" alt="<?php print $site_name; ?> » <?php print $site_slogan; ?>"/></a>
-            </div><!--// l-logo-->
-            <?php endif; ?>
-
-          <?php if ($site_slogan || $site_name) : ?>
-          <div class="l-branding">
-
-                <?php if ($site_name) : ?>
-                  <h1 class="site-name">
-                    <a href="<?php print $front_page; ?>">
-                      <?php print $site_name; ?></a>
-                  </h1>
-              <?php endif; ?>
-
-                  <?php if ($site_slogan) : ?>
-                    <h3 class="site-slogan"><?php print $site_slogan; ?></h3>
-                <?php endif; ?>
-
-          </div><!--//branding-->
-            <?php endif; ?>
 
 
           <!-- for third party menu systems or modules-->
