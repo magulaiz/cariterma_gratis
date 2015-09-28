@@ -82,14 +82,13 @@
 
       <!-- header -->
       <div id="header-bar" class="l-header-wrapper" role="banner">
-       <header class="l-header l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
 
  <?php if (!empty($page['full_width_highlight'])): ?>
    <div class="l-fullwidth-highlight">
       <?php print render($page['full_width_highlight']); ?>
     </div>
   <?php endif; ?>
-     </header>
+
       </div><!-- // l-header -wrapper-->
 
       <div id="menu-wrapper" class="l-menu-wrapper main-menu" role="navigation">
