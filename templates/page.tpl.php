@@ -141,12 +141,6 @@
 
 <div class="l-content-wrap">
 
- <?php if (!empty($page['full_width_highlight'])): ?>
-    <div class="l-fullwidth-highlight">
-      <?php print render($page['full_width_highlight']); ?>
-    </div>
-  <?php endif; ?>
-
       <?php if ($breadcrumb): ?>
         <div id="breadcrumbs-wrapper" class="l-breadcrumbs">
           <div class="breadcrumbs l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
