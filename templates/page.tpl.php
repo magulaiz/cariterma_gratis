@@ -100,6 +100,14 @@
             <div id="off-canvas-left" class="l-off-canvas l-off-canvas--left">
               <a id="off-canvas-left-hide" href="#" class="l-off-canvas-hide l-off-canvas-hide--left"><?php print t('Hide Navigation'); ?></a>
 
+              <div class="main-menu-wrapper">
+
+                <?php print render($primary_nav); ?>
+              </div>
+            </div><!-- // off-canvas-left -->
+          <?php endif; ?>
+          <!-- //main menu -->
+
         <?php if ($logo): ?>
           <div class="l-logo">
               <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?> » <?php print $site_slogan; ?>">
@@ -124,14 +132,6 @@
           </div><!--//branding-->
             <?php endif; ?>
 
-
-              <div class="main-menu-wrapper">
-
-                <?php print render($primary_nav); ?>
-              </div>
-            </div><!-- // off-canvas-left -->
-          <?php endif; ?>
-          <!-- //main menu -->
 
           <!-- for third party menu systems or modules-->
           <?php if ($page['thirdparty_menu']): ?>
