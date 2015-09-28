@@ -5,26 +5,26 @@ ELEMENT-TAGS
 */
 
 body.page-admin.admin-menu.adminimal-menu {
-    margin-top: 29px !important;
+	margin-top: 29px !important;
 }
 
 body.admin-menu.adminimal-menu {
-    margin-top: 29px !important;
+	margin-top: 29px !important;
 }
 
 body.admin-menu.adminimal-menu::before {
-    height: 0;
+	height: 0;
 }
 ul.elastic-grid figure,
 .panel-bricks-25-75-stacked figure {
-    float: none;
-    margin: 0px;
-    width: 100%;
-    padding: 0.1em;
+	float: none;
+	margin: 0px;
+	width: 100%;
+	padding: 0.1em;
 }
 ul.elastic-grid figure figcaption,
 .panel-bricks-25-75-stacked figure figcaption {
-    display: none;
+	display: none;
 }
 
 /*
@@ -32,7 +32,7 @@ CLASS
 */
 
 .elastic-grid {
-    text-align: center;
+	text-align: center;
 }
 .elastic-grid-thumbnail .image {
   xposition: relative;
@@ -51,7 +51,15 @@ CLASS
   font-weight: 600;
 }
 .l-off-canvas-show {
-    background: transparent url("../images/theme-sprite.png") no-repeat scroll 0px -6px;
+	background: rgba(255,255,255,0.9) url("../images/theme-sprite.png") no-repeat scroll 0px 0px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+  height: 39px;
+  top: 0;
 }
 .l-off-canvas-show, .l-off-canvas-hide {
 	width: 260px;
@@ -61,16 +69,16 @@ CLASS
 }
 
 .main-menu-wrapper > ul ul {
-    z-index: 100;
+	z-index: 100;
 }
 .masonry-item #masonry-row-title,
 .masonry-item #masonry-row-title a {
-    padding: 5px;
-    font-size: 0.8em;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    margin-bottom: 10px;
-    display: block;
+	padding: 5px;
+	font-size: 0.8em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-bottom: 10px;
+	display: block;
 }
 
 /*
@@ -78,10 +86,10 @@ CLASS
 */
 
 #header-bar, blockquote  {
-    background: none;
+	background: none;
 }
 #menu-wrapper {
-    box-shadow: 0px 3px 10px;
+	box-shadow: 0px 3px 10px;
 }
 
 @media screen and (min-width: 0.47em) {
@@ -103,12 +111,12 @@ CLASS
 @media screen and (min-width: 60.01em) {
 
 	blockquote {
-    border: 0;
+	border: 0;
 	}
 
 	.nivo-caption {
-    width: 50%;
-    margin: 0 25%;
+	width: 50%;
+	margin: 0 25%;
 	}
 	.stickynav-active .main-menu-wrapper {
 		height: 70px;
@@ -140,34 +148,34 @@ CLASS
 
 @media screen and (max-width: 33.00em) {
 	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-    padding: 5px 15px;
+	padding: 5px 15px;
 	}
 	#block-views-flexsliders-block .field-name-field-title .field-item {
-    background-color: rgba(0, 0, 0, 0.8);
-    color: rgb(195, 195, 195);
-    font-size: 1.2em;
-    font-weight: bold;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgb(195, 195, 195);
+	font-size: 1.2em;
+	font-weight: bold;
 	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
-    color: #000;
-    font-size: 0.8em;
-    background-color: rgba(255, 255, 255, 0.76);
-    border: 1px solid grey;
+	color: #000;
+	font-size: 0.8em;
+	background-color: rgba(255, 255, 255, 0.76);
+	border: 1px solid grey;
 	}
 	#block-views-flexsliders-block .field-name-field-image figure {
-    margin: 0px;
+	margin: 0px;
 	}
 }
 
 @media screen and (min-width: 33.00em) {
 
 	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-    position: absolute;
-    overflow: hidden;
-    left: 10%;
-    width: 40%;
-    max-height: 50%;
-    padding: 5px 15px;
+	position: absolute;
+	overflow: hidden;
+	left: 10%;
+	width: 40%;
+	max-height: 50%;
+	padding: 5px 15px;
 	}
 	#block-views-flexsliders-block .field-name-field-title .field-item {
 			background-color: rgba(0, 0, 0, 0.8);
