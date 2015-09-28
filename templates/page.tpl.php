@@ -83,6 +83,31 @@
       <!-- header -->
       <div id="header-bar" class="l-header-wrapper" role="banner">
 
+        <?php if (!empty($page['full_width_highlight'])): ?>
+          <div class="l-fullwidth-highlight">
+            <?php print render($page['full_width_highlight']); ?>
+          </div>
+        <?php endif; ?>
+
+      </div><!-- // l-header -wrapper-->
+
+      <div id="menu-wrapper" class="l-menu-wrapper main-menu" role="navigation">
+        <div class="l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
+
+
+          <?php if ($main_menu): ?>
+            <a id="off-canvas-left-show" href="#off-canvas" class="l-off-canvas-show l-off-canvas-show--left"><?php print t('Show Navigation'); ?></a>
+            <div id="off-canvas-left" class="l-off-canvas l-off-canvas--left">
+              <a id="off-canvas-left-hide" href="#" class="l-off-canvas-hide l-off-canvas-hide--left"><?php print t('Hide Navigation'); ?></a>
+
+              <div class="main-menu-wrapper">
+
+                <?php print render($primary_nav); ?>
+              </div>
+            </div><!-- // off-canvas-left -->
+          <?php endif; ?>
+          <!-- //main menu -->
+
         <?php if ($logo): ?>
           <div class="l-logo">
               <a href="<?php print $front_page; ?>" title="<?php print $site_name; ?> » <?php print $site_slogan; ?>">
@@ -107,29 +132,6 @@
           </div><!--//branding-->
             <?php endif; ?>
 
-        <?php if (!empty($page['full_width_highlight'])): ?>
-          <div class="l-fullwidth-highlight">
-            <?php print render($page['full_width_highlight']); ?>
-          </div>
-        <?php endif; ?>
-
-      </div><!-- // l-header -wrapper-->
-
-      <div id="menu-wrapper" class="l-menu-wrapper main-menu" role="navigation">
-        <div class="l-setwidth" <?php if (!empty($set_width)) : print 'style="max-width:' . $set_width . ';"' ; endif; ?>>
-
-          <?php if ($main_menu): ?>
-            <a id="off-canvas-left-show" href="#off-canvas" class="l-off-canvas-show l-off-canvas-show--left"><?php print t('Show Navigation'); ?></a>
-            <div id="off-canvas-left" class="l-off-canvas l-off-canvas--left">
-              <a id="off-canvas-left-hide" href="#" class="l-off-canvas-hide l-off-canvas-hide--left"><?php print t('Hide Navigation'); ?></a>
-
-              <div class="main-menu-wrapper">
-
-                <?php print render($primary_nav); ?>
-              </div>
-            </div><!-- // off-canvas-left -->
-          <?php endif; ?>
-          <!-- //main menu -->
 
           <!-- for third party menu systems or modules-->
           <?php if ($page['thirdparty_menu']): ?>
