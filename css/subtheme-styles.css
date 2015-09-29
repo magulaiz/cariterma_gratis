@@ -102,8 +102,12 @@ CLASS
 #menu-wrapper {
 	box-shadow: 0px 3px 10px;
 }
+#off-canvas-left {
+  background-color: rgba(168, 171, 184, 0.99);
+}
 
 @media screen and (min-width: 0.47em) {
+
 	ul.elastic-grid figure,
 	.panel-bricks-25-75-stacked figure {
 			float: right;
@@ -115,66 +119,6 @@ CLASS
 	ul.elastic-grid figure figcaption,
 	.panel-bricks-25-75-stacked figure figcaption {
 			display: none;
-	}
-}
-
-
-@media screen and (min-width: 60.01em) {
-
-	blockquote {
-	border: 0;
-	}
-
-	.nivo-caption {
-	width: 50%;
-	margin: 0 25%;
-	}
-	.stickynav-active .main-menu-wrapper {
-		height: 70px;
-	}
-	.stickynav-active ul.menu.primary {
-		padding-top: 0.8em;
-		float: right;
-	}
-/*
-	.stickynav-active .main-menu-wrapper::before {
-		content: url("http://cariterma.websop.es/sites/all/themes/cariterma_gratis/logo.png");
-		position: fixed;
-	}
-*/
-	
-	#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
-			position: fixed;
-	}
-}
-	#gallery-title a {
-			position: absolute;
-			bottom: 0px;
-			background: rgba(0, 0, 0, 0.61) none repeat scroll 0% 0%;
-			width: 100%;
-			color: #FFF;
-			padding: 1em;
-			font-weight: bold;
-	}
-
-@media screen and (max-width: 33.00em) {
-	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-	padding: 5px 15px;
-	}
-	#block-views-flexsliders-block .field-name-field-title .field-item {
-	background-color: rgba(0, 0, 0, 0.8);
-	color: rgb(195, 195, 195);
-	font-size: 1.2em;
-	font-weight: bold;
-	}
-	#block-views-flexsliders-block .field-name-field-text .field-item {
-	color: #000;
-	font-size: 0.8em;
-	background-color: rgba(255, 255, 255, 0.76);
-	border: 1px solid grey;
-	}
-	#block-views-flexsliders-block .field-name-field-image figure {
-	margin: 0px;
 	}
 }
 
@@ -203,19 +147,14 @@ CLASS
 			top: 50%;
 			background-color: rgba(255, 255, 255, 0.76);
 	}
-	}
-
-@media screen and (min-width: 33.00em) and (max-width: 60em) {
-
-	#block-views-flexsliders-block .field-name-field-title .field-item {
-			font-size: 1.2em;
-	}
-	#block-views-flexsliders-block .field-name-field-text .field-item {
-			font-size: 0.8em;
-	}
 }
 
 @media screen and (min-width: 60.01em) {
+
+	blockquote {
+	border: 0;
+	}
+
 	.escale-width-150, .escale-width-150 a {
 			width: 150px;
 	}
@@ -225,11 +164,81 @@ CLASS
 	.escale-width-250, .escale-width-150 a {
 			width: 250px;
 	}
-
+	.nivo-caption {
+	width: 50%;
+	margin: 0 25%;
+	}
+	.stickynav-active .main-menu-wrapper {
+		height: 70px;
+	}
+	.stickynav-active ul.menu.primary {
+		padding-top: 0.8em;
+		float: right;
+	}
+	
+	#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
+			position: fixed;
+	}
 	#block-views-flexsliders-block .field-name-field-title .field-item {
 			font-size: 2em;
 	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 			font-size: 1.5em;
+	}
+	#gallery-title a {
+			position: absolute;
+			bottom: 0px;
+			background: rgba(0, 0, 0, 0.61) none repeat scroll 0% 0%;
+			width: 100%;
+			color: #FFF;
+			padding: 1em;
+			font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 33.00em) and (min-width: 0) {
+	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+	padding: 5px 15px;
+	}
+	#block-views-flexsliders-block .field-name-field-title .field-item {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: rgb(195, 195, 195);
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+	#block-views-flexsliders-block .field-name-field-text .field-item {
+	color: #000;
+	font-size: 0.8em;
+	background-color: rgba(255, 255, 255, 0.76);
+	border: 1px solid grey;
+	}
+	#block-views-flexsliders-block .field-name-field-image figure {
+	margin: 0px;
+	}
+}
+
+@media (max-width: 60.01em) and (min-width: 0) {
+
+	.l-menu-wrapper ul.menu a {
+	  padding: 20px 0;
+	  background: #8192B3;
+	  color: #eaeaea;
+	  border-bottom: 1px dotted #eaeaea;
+	  font-size: 16px;
+	  font-size: 0.88889rem;
+	  letter-spacing: .2em;
+	  text-transform: uppercase;
+	  font-weight: normal;
+	  display: block;
+	}
+}
+
+@media screen and (min-width: 33.00em) and (max-width: 60em) {
+
+	#block-views-flexsliders-block .field-name-field-title .field-item {
+			font-size: 1.2em;
+	}
+	#block-views-flexsliders-block .field-name-field-text .field-item {
+			font-size: 0.8em;
 	}
 }
