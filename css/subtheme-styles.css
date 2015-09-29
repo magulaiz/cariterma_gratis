@@ -57,12 +57,6 @@ CLASS
 		border-top: 8px solid #8192B3;
 		margin: -4px 0 60px;
 	}
-
-	.l-logo {
-	  top: -25px;
-	  right: 163px;
-	  position: absolute;
-	}
 	.l-off-canvas-show {
 		background: rgba(255,255,255,0.9) url("../images/theme-sprite.png") no-repeat scroll 0px 0px;
 		-webkit-border-bottom-right-radius: 8px;
@@ -148,7 +142,7 @@ CLASS
 	}
 }
 
-@media screen and (min-width: 60.01em) and (min-width: 0) {
+@media screen and (min-width: 60.01em) {
 
 	blockquote {
 	border: 0;
@@ -166,7 +160,11 @@ CLASS
 	.l-menu-wrapper ul.menu a.alink:hover, .l-menu-wrapper ul.menu a.active-trail {
   	background-color: #7E818A;
 	}
-	
+	.l-logo {
+	  position: relative;
+		right: 380px;
+		top: 40px;
+	}
 	.nivo-caption {
 	width: 50%;
 	margin: 0 25%;
@@ -218,6 +216,11 @@ CLASS
 	#block-views-flexsliders-block .field-name-field-image figure {
 	margin: 0px;
 	}
+	.l-logo {
+	  top: -25px;
+	  right: 85px;
+	  position: absolute;
+	}	
 }
 
 @media (max-width: 60.01em) and (min-width: 0) {
@@ -241,4 +244,8 @@ CLASS
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 			font-size: 0.8em;
 	}
+		.l-logo {
+		margin-top: -55px;
+	  position: relative;
+	}	
 }
