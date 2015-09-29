@@ -69,6 +69,7 @@ CLASS
 	  top: 8px;
 	  width: 260px;
 	}
+
 	.main-menu-wrapper > ul ul {
 		z-index: 100;
 	}
@@ -95,9 +96,7 @@ CLASS
 	#menu-wrapper {
 		box-shadow: 0px 3px 10px;
 	}
-	#off-canvas-left {
-	  background-color: rgba(168, 171, 184, 0.97);
-	}
+
 
 @media screen and (min-width: 0.47em) {
 
@@ -148,6 +147,9 @@ CLASS
 	border: 0;
 	}
 
+	.color-palette-green .l-off-canvas--left {
+  /* background-color: #6a8500; */
+}
 	.escale-width-150, .escale-width-150 a {
 			width: 150px;
 	}
@@ -161,22 +163,30 @@ CLASS
   	background-color: #7E818A;
 	}
 	.l-logo {
-	  position: relative;
-		right: 380px;
-		top: 40px;
+		display: inline-block;
+		margin: 0 0 0 10px;
+		vertical-align: top;
+	}
+	.main-menu-wrapper > ul {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
 	}
 	.nivo-caption {
 	width: 50%;
 	margin: 0 25%;
 	}
 	.stickynav-active .main-menu-wrapper {
-		height: 70px;
+		height: 50px;
 	}
 	.stickynav-active ul.menu.primary {
-		padding-top: 0.8em;
-		float: right;
+		padding: 0;
+		height: 50px;
 	}
-	
+	ul.menu.primary {
+	  margin: 10px 10px 0 10px;
+	}
+
 	#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
 			position: fixed;
 	}
@@ -224,7 +234,7 @@ CLASS
 }
 
 @media (max-width: 60.01em) and (min-width: 0) {
-
+	
 	.l-menu-wrapper ul.menu a {
 	  background: #358EDA;
 	}
@@ -233,6 +243,10 @@ CLASS
 	}
 	.l-menu-wrapper ul.menu, .l-menu-wrapper ul.menu a.active-trail {
 		background: #6f7177;
+	}
+
+	#off-canvas-left {
+	  background-color: rgba(168, 171, 184, 0.97);
 	}
 }
 
