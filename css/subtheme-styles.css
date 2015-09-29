@@ -50,6 +50,13 @@ CLASS
   text-shadow: -1px -1px 1px black;
   font-weight: 600;
 }
+.flexslider {
+	border: 0;
+	border-top: 8px solid;
+	color: #8E98AC;
+;	margin: -4px 0 60px;
+}
+
 .l-off-canvas-show {
 	background: rgba(255,255,255,0.9) url("../images/theme-sprite.png") no-repeat scroll 0px 0px;
 	-webkit-border-bottom-right-radius: 8px;
@@ -58,11 +65,12 @@ CLASS
 	-moz-border-radius-bottomleft: 8px;
 	border-bottom-right-radius: 8px;
 	border-bottom-left-radius: 8px;
-  height: 39px;
-  top: 0;
+  height: 40px;
+  top: 8px;
+  width: 260px;
 }
 .l-off-canvas-show, .l-off-canvas-hide {
-	width: 260px;
+	
 }
 .l-logo {
   padding: 10px 0;
@@ -79,6 +87,9 @@ CLASS
 	color: white;
 	margin-bottom: 10px;
 	display: block;
+}
+.stickynav-active {
+	top: -8px;
 }
 
 /*
