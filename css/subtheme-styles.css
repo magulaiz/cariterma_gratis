@@ -163,6 +163,7 @@ MEDIA QUERIES
 		}
 		.l-branding {
 			display: inline-block;
+			font-family: 'Expletus Sans';
 			margin: 13px 0 0 10px;
 			text-transform: uppercase;
 			vertical-align: top;
