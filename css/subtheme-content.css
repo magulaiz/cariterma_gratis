@@ -1,0 +1,17 @@
+/*
+Taxonomy term page
+*/
+
+div.taxonomy-term.vocabulary-actividades .content {
+	position: relative;
+}
+.vocabulary-actividades .field-type-text h2 {
+	position: absolute;
+	top: 20%;
+	background: rgba(0, 0, 0, 0.77) none repeat scroll 0% 0%;
+	padding: 10px 20px;
+	margin: 0px;
+	left: -10px;
+	color: #FFF;
+	font-size: 1.5em;
+}
