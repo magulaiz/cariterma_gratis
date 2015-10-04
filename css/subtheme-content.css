@@ -24,3 +24,11 @@ div.taxonomy-term.vocabulary-actividades .content {
 	color: #FFF;
 	font-size: 1.5em;
 }
+
+/*
+Social links
+*/
+
+.social-media-links.platforms.inline.horizontal {
+    margin-left: 0;
+}

@@ -26,7 +26,7 @@
 }
 @media screen and (min-width: 33em) {
 .masonry-item {
-    width: 33%;
+    width: 25%;
 }
 }
 @media screen and (min-width: 60.01em) {
