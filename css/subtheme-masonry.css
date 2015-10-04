@@ -1,7 +1,4 @@
 
-.masonry-item {
-    width: 100%;
-}
 .masonry-item img {
     margin: 2%;
     width: 96%;
@@ -19,12 +16,24 @@
     width: 96%;
 }
 
+@media screen and (min-width: 0) {
+.masonry-item {
+    width: 100%;
+}
+}
+
 @media screen and (min-width: 15em) {
 .masonry-item {
     width: 50%;
 }
 }
 @media screen and (min-width: 33em) {
+.masonry-item {
+    width: 33%;
+}
+}
+
+@media screen and (min-width: 45em) {
 .masonry-item {
     width: 25%;
 }
