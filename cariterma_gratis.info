@@ -14,6 +14,8 @@ stylesheets[all][] = css/subtheme-menu.css
 stylesheets[all][] = css/subtheme-content.css
 stylesheets[all][] = css/subtheme-masonry.css
 stylesheets[all][] = css/subtheme-footer.css
+stylesheets[all][] = css/subtheme-flexslider.css
+
 ; Regions --------------------
 regions[top_links]       = Top Links
 regions[thirdparty_menu]  = Main menu (third party menu systems)
