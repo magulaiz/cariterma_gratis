@@ -3,7 +3,7 @@
     width: 100%;
 }
 .masonry-item img {
-    border: 5px solid white;
+    border: 2% solid white;
     width: 100%;
 }
 .field-content.masonry-title a {
@@ -11,14 +11,15 @@
     color: #FFF;
     font-size: 0.8em;
     font-weight: 600;
-    padding: 5px;
+    padding: 2%;
     position: absolute;
     bottom: 0px;
     z-index: 1;
-    margin: 5px;
+    margin: 2%;
+    width: 96%;
 }
 
-@media screen and (min-width: 0.47em) {
+@media screen and (min-width: 5em) {
 .masonry-item {
     width: 50%;
 }
