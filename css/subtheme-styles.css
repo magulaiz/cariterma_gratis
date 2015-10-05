@@ -174,7 +174,6 @@ MEDIA QUERIES
 		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items{
 			background-color: rgba(255, 255, 255, 0.76);
-			border: 1px solid red;
 			height: 100%;
 			left:55%;			
 			padding: 10px;
@@ -183,7 +182,6 @@ MEDIA QUERIES
 			width: 45%;
 		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-			border: 1px solid red;
 			color: #535353;
 			position: relative;
 		  -webkit-transform: translateY(-50%);
