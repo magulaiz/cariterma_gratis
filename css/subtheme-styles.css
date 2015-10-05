@@ -3,7 +3,6 @@
 /*
 ELEMENT-TAGS
 */
-
 	body.page-admin.admin-menu.adminimal-menu {
 		margin-top: 29px !important;
 	}
@@ -69,6 +68,9 @@ CLASS
 		border-top: 8px solid #8192B3;
 		margin: -4px 0 60px;
 	}
+	.flexslider figure {
+		margin: 0;
+	}
 	.l-off-canvas-show {
 		background: rgba(255,255,255,0.9) url("../images/theme-sprite.png") no-repeat scroll 0px 0px;
 		-webkit-border-bottom-right-radius: 8px;
@@ -92,7 +94,7 @@ CLASS
 	}
 
 /*
- ATTRIBUTES
+ATTRIBUTES
 */
 
 	#header-bar, blockquote  {
@@ -102,49 +104,92 @@ CLASS
 /*
 MEDIA QUERIES
 */
+	@media screen and (min-width: 0) and (max-width: 33.00em) {
+		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+			color: #535353;
+			font-size: 0.8em;
+			font-weight: bolder;
+			max-height: 50%;
+			padding: 5px 15px;
+			width: 100%;
+		}
+		#block-views-flexsliders-block .field-name-field-image figure {
+		margin: 0px;
+		}
+		.l-logo {
+			top: -25px;
+			right: 85px;
+			position: absolute;
+		}	
+	}
+	@media screen and (min-width: 33.00em) and (max-width: 60em) {
+		.l-logo {
+			margin-top: -55px;
+			position: relative;
+		}	
+	}
+	@media  (min-width: 0) and (max-width: 60.01em) {
+		.l-branding {
+			display: none;
+		}		
+		.l-menu-wrapper ul.menu a {
+			background: #358EDA;
+		}
+		.l-menu-wrapper:hover ul.menu a:hover {
+			background: #7E818A;
+		}
+		.l-menu-wrapper ul.menu, .l-menu-wrapper ul.menu a.active-trail {
+			background: #6f7177;
+		}
 
+		#off-canvas-left {
+			background-color: rgba(168, 171, 184, 0.97);
+		}
+	}
 	@media screen and (min-width: 0.47em) {
 
-		ul.elastic-grid figure,
-		.panel-bricks-25-75-stacked figure {
-				float: right;
-				margin: 0px;
-				width: 50%;
-				padding: 0.1em;
-				min-width: 75px;
+			ul.elastic-grid figure,
+			.panel-bricks-25-75-stacked figure {
+					float: right;
+					margin: 0;
+					width: 50%;
+					padding: 0.1em;
+					min-width: 75px;
+			}
+			ul.elastic-grid figure figcaption,
+			.panel-bricks-25-75-stacked figure figcaption {
+					display: none;
+			}
 		}
-		ul.elastic-grid figure figcaption,
-		.panel-bricks-25-75-stacked figure figcaption {
-				display: none;
-		}
-	}
-
 	@media screen and (min-width: 33.00em) {
-
+		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items{
+			background-color: rgba(255, 255, 255, 0.76);
+			border: 1px solid red;
+			height: 100%;
+			padding: 10px;
+			position: absolute;
+			width: 45%;
+			left:55%;
+			top: 0;
+		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		padding: 5px 15px;
-		}
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-				background-color: rgba(0, 0, 0, 0.8);
-				color: rgba(195, 195, 195, 1);
-				font-size: 1.5em;
-				font-weight: bold;
-				bottom: 50%;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-				color: #000;
-				font-size: 1em;
-				font-weight: bold;
-				text-shadow: 1px 1px 3px #FFF;
-				top: 50%;
-				background-color: rgba(255, 255, 255, 0.76);
+			border: 1px solid red;
+			color: #535353;
+			position: relative;
+		  -webkit-transform: translateY(-50%);
+		  -ms-transform: translateY(-50%);
+		  transform: translateY(-50%);			
+			top: 50%;
 		}
 	}
-
 	@media screen and (min-width: 60.01em) {
 
 		blockquote {
 			border: 0;
+		}
+		ul.menu.primary {
+			margin: 15px 10px 0 10px;
+			font-size: 1em;
 		}
 		.color-palette-green .l-menu-wrapper {
 			background-color: rgba(255, 255, 255,1);
@@ -166,7 +211,6 @@ MEDIA QUERIES
 			}
 		.l-branding {
 			display: inline-block;
-			font-family: 'Expletus Sans';
 			margin: 13px 0 0 10px;
 			text-transform: uppercase;
 			vertical-align: top;
@@ -215,28 +259,13 @@ MEDIA QUERIES
 			padding: 0;
 			height: 50px;
 		}
-		ul.menu.primary {
-			margin: 15px 10px 0 10px;
-			font-size: 1em;
-		}
 
 		#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
 			position: fixed;
 		}
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-			font-size: 2em;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-			font-size: 1.5em;
-		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		position: absolute;
-		overflow: hidden;
-		left: 55%;
-		width: 45%;
-		height: 100%;
-		padding: 5px 15px;
-		top: 0;
+			font-size: 2em;
+			line-height: 1.15em;
 		}
 		#gallery-title a {
 			position: absolute;
@@ -247,75 +276,4 @@ MEDIA QUERIES
 			padding: 1em;
 			font-weight: bold;
 		}
-	}
-
-	@media screen and (max-width: 33.00em) and (min-width: 0) {
-		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		position: absolute;
-		overflow: hidden;
-		width: 100%;
-		max-height: 50%;
-		padding: 5px 15px;
-		}
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-		background-color: rgba(0, 0, 0, 0.8);
-		color: rgb(195, 195, 195);
-		font-size: 1.2em;
-		font-weight: bold;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-		color: #000;
-		font-size: 0.8em;
-		background-color: rgba(255, 255, 255, 0.76);
-		}
-		#block-views-flexsliders-block .field-name-field-image figure {
-		margin: 0px;
-		}
-		.l-logo {
-			top: -25px;
-			right: 85px;
-			position: absolute;
-		}	
-	}
-
-	@media (max-width: 60.01em) and (min-width: 0) {
-		.l-branding {
-			display: none;
-		}		
-		.l-menu-wrapper ul.menu a {
-			background: #358EDA;
-		}
-		.l-menu-wrapper:hover ul.menu a:hover {
-			background: #7E818A;
-		}
-		.l-menu-wrapper ul.menu, .l-menu-wrapper ul.menu a.active-trail {
-			background: #6f7177;
-		}
-
-		#off-canvas-left {
-			background-color: rgba(168, 171, 184, 0.97);
-		}
-	}
-
-	@media screen and (min-width: 33.00em) and (max-width: 60em) {
-
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-				font-size: 1.2em;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-				font-size: 0.8em;
-		}
-		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		position: absolute;
-		overflow: hidden;
-		left: 65%;
-		width: 35%;
-		height: 100%;
-		padding: 5px 15px;
-		top: 0;
-		}
-		.l-logo {
-			margin-top: -55px;
-			position: relative;
-		}	
 	}
