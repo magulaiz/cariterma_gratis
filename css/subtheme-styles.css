@@ -12,11 +12,6 @@ ELEMENT-TAGS
 	body.admin-menu.adminimal-menu::before {
 		height: 0;
 	}
-	ol.flex-control-nav.flex-control-paging {
-	  position: absolute;
-	  top: 80%;
-	  z-index: 101;
-	}
 	ul.elastic-grid figure,
 	.panel-bricks-25-75-stacked figure {
 		float: none;
@@ -96,7 +91,9 @@ CLASS
 /*
 ATTRIBUTES
 */
-
+	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items {
+		overflow: hidden;
+	}
 	#header-bar, blockquote  {
 		background: none;
 	}
@@ -105,24 +102,32 @@ ATTRIBUTES
 MEDIA QUERIES
 */
 	@media screen and (min-width: 0) and (max-width: 33.00em) {
+	ol.flex-control-nav.flex-control-paging {
+	  position: absolute;
+	  top: 34%;
+	  z-index: 101;
+	}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
 			color: #535353;
-			font-size: 0.8em;
 			font-weight: bolder;
 			max-height: 50%;
 			padding: 5px 15px;
 			width: 100%;
 		}
 		#block-views-flexsliders-block .field-name-field-image figure {
-		margin: 0px;
+			margin: 0;
 		}
 		.l-logo {
 			top: -25px;
 			right: 85px;
 			position: absolute;
-		}	
+		}
+
 	}
 	@media screen and (min-width: 33.00em) and (max-width: 60em) {
+		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+			font-size: 0.7em;
+		}
 		.l-logo {
 			margin-top: -55px;
 			position: relative;
@@ -162,15 +167,20 @@ MEDIA QUERIES
 			}
 		}
 	@media screen and (min-width: 33.00em) {
+		ol.flex-control-nav.flex-control-paging {
+		  position: absolute;
+		  top: 80%;
+		  z-index: 101;
+		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items{
 			background-color: rgba(255, 255, 255, 0.76);
 			border: 1px solid red;
 			height: 100%;
+			left:55%;			
 			padding: 10px;
 			position: absolute;
-			width: 45%;
-			left:55%;
 			top: 0;
+			width: 45%;
 		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
 			border: 1px solid red;
@@ -264,8 +274,7 @@ MEDIA QUERIES
 			position: fixed;
 		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-			font-size: 2em;
-			line-height: 1.15em;
+			font-size: 1.1em;
 		}
 		#gallery-title a {
 			position: absolute;
