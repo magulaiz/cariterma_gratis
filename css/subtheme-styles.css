@@ -104,10 +104,12 @@ MEDIA QUERIES
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items {
                 position: absolute;
                 overflow: hidden;
+                top: 0px;
                 left: 55%;
                 width: 45%;
                 height: 100%;
                 padding: 5px 15px;
+                background: rgba(255, 255, 255, 0.7);
 		}
 	}
 
