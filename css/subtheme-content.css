@@ -26,9 +26,12 @@ div.taxonomy-term.vocabulary-actividades .content {
 }
 
 /*
-Social links
+Social media links
 */
 
+div#block-social-media-links-social-media-links {
+    text-align: center;
+}
 .social-media-links.platforms.inline.horizontal {
     margin-left: 0;
 }
