@@ -27,6 +27,18 @@ ELEMENT-TAGS
 /*
 CLASS
 */
+	.color-palette-green a {
+		color: #8192b3;
+	}
+	.color-palette-green .item-list-pager li.pager-current {
+		background-color: #8192b3;
+	}
+	.color-palette-green .item-list-pager li.pager-current:hover {
+		background-color: rgba(129, 146, 179, 0.9);
+	}
+	.color-palette-green .item-list-pager li a:hover {
+  	background-color: rgba(129, 146, 179, 0.6);
+	}
 	.field-content.masonry-title {
 		width: 290px;
 		background-color: rgba(0, 0, 0, 0.58);
