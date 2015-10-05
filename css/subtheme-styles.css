@@ -13,11 +13,6 @@ ELEMENT-TAGS
 	body.admin-menu.adminimal-menu::before {
 		height: 0;
 	}
-	ol.flex-control-nav.flex-control-paging {
-	  position: absolute;
-	  top: 80%;
-	  z-index: 101;
-	}
 	ul.elastic-grid figure,
 	.panel-bricks-25-75-stacked figure {
 		float: none;
@@ -33,18 +28,6 @@ ELEMENT-TAGS
 /*
 CLASS
 */
-	.field-content.masonry-title {
-		width: 290px;
-		background-color: rgba(0, 0, 0, 0.58);
-		color: white;
-		font-size: 0.8em;
-		font-weight: 600;
-		padding: 5px;
-		position: absolute;
-		bottom: 0px;
-		z-index: 1;
-		margin: 5px;
-	}
 	.elastic-grid {
 		text-align: center;
 	}
@@ -84,9 +67,6 @@ CLASS
 	.main-menu-wrapper > ul ul {
 		z-index: 100;
 	}
-	.masonry-item img {
-		border: 5px solid white;
-	}
 	.stickynav-active {
 		top: -8px;
 	}
@@ -121,23 +101,13 @@ MEDIA QUERIES
 
 	@media screen and (min-width: 33.00em) {
 
-		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		padding: 5px 15px;
-		}
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-				background-color: rgba(0, 0, 0, 0.8);
-				color: rgba(195, 195, 195, 1);
-				font-size: 1.5em;
-				font-weight: bold;
-				bottom: 50%;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-				color: #000;
-				font-size: 1em;
-				font-weight: bold;
-				text-shadow: 1px 1px 3px #FFF;
-				top: 50%;
-				background-color: rgba(255, 255, 255, 0.76);
+		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items {
+                position: absolute;
+                overflow: hidden;
+                left: 55%;
+                width: 45%;
+                height: 100%;
+                padding: 5px 15px;
 		}
 	}
 
@@ -161,9 +131,6 @@ MEDIA QUERIES
 		.escale-width-250, .escale-width-150 a {
 				width: 250px;
 		}
-		.flexslider { 
-				border-top: 15px solid #8192B3;
-			}
 		.l-branding {
 			display: inline-block;
 			font-family: 'Expletus Sans';
@@ -223,21 +190,7 @@ MEDIA QUERIES
 		#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
 			position: fixed;
 		}
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-			font-size: 2em;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-			font-size: 1.5em;
-		}
-		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		position: absolute;
-		overflow: hidden;
-		left: 55%;
-		width: 45%;
-		height: 100%;
-		padding: 5px 15px;
-		top: 0;
-		}
+
 		#gallery-title a {
 			position: absolute;
 			bottom: 0px;
@@ -250,26 +203,12 @@ MEDIA QUERIES
 	}
 
 	@media screen and (max-width: 33.00em) and (min-width: 0) {
-		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		position: absolute;
-		overflow: hidden;
-		width: 100%;
-		max-height: 50%;
-		padding: 5px 15px;
+		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items {
+                padding: 5px 15px;
 		}
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-		background-color: rgba(0, 0, 0, 0.8);
-		color: rgb(195, 195, 195);
-		font-size: 1.2em;
-		font-weight: bold;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-		color: #000;
-		font-size: 0.8em;
-		background-color: rgba(255, 255, 255, 0.76);
-		}
+
 		#block-views-flexsliders-block .field-name-field-image figure {
-		margin: 0px;
+                margin: 0px;
 		}
 		.l-logo {
 			top: -25px;
@@ -298,22 +237,6 @@ MEDIA QUERIES
 	}
 
 	@media screen and (min-width: 33.00em) and (max-width: 60em) {
-
-		#block-views-flexsliders-block .field-name-field-title .field-item {
-				font-size: 1.2em;
-		}
-		#block-views-flexsliders-block .field-name-field-text .field-item {
-				font-size: 0.8em;
-		}
-		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
-		position: absolute;
-		overflow: hidden;
-		left: 65%;
-		width: 35%;
-		height: 100%;
-		padding: 5px 15px;
-		top: 0;
-		}
 		.l-logo {
 			margin-top: -55px;
 			position: relative;
