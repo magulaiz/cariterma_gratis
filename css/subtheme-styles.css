@@ -273,9 +273,6 @@ MEDIA QUERIES
 			width: 50%;
 			margin: 0 25%;
 		}
-		.stickynav-active .main-menu-wrapper {
-			height: 50px;
-		}
 		.stickynav-active ul.menu.primary {
 			padding: 0;
 			height: 50px;
