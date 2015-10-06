@@ -172,7 +172,9 @@ MEDIA QUERIES
 		.l-menu-wrapper ul.menu, .l-menu-wrapper ul.menu a.active-trail {
 			background: #6f7177;
 		}
-
+		.stickynav-active {
+			top: -8px;
+		}
 		#off-canvas-left {
 			background-color: rgba(168, 171, 184, 0.97);
 		}
