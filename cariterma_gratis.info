@@ -9,6 +9,12 @@ base theme = gratis
 ; CSS --------------------
 ; --- Your subtheme css files.
 stylesheets[all][] = css/subtheme-styles.css
+stylesheets[all][] = css/subtheme-header.css
+stylesheets[all][] = css/subtheme-menu.css
+stylesheets[all][] = css/subtheme-content.css
+stylesheets[all][] = css/subtheme-masonry.css
+stylesheets[all][] = css/subtheme-footer.css
+stylesheets[all][] = css/subtheme-flexslider.css
 
 ; Regions --------------------
 regions[top_links]       = Top Links
