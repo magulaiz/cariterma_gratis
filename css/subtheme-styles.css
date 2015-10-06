@@ -101,6 +101,9 @@ CLASS
 	.masonry-item img {
 		border: 5px solid white;
 	}
+	.sliding-popup-bottom {
+		background: none;
+	}
 	.stickynav-active {
 		top: -8px;
 	}
@@ -113,6 +116,12 @@ ATTRIBUTES
 	}
 	#header-bar, blockquote  {
 		background: none;
+	}
+	#sliding-popup {
+		color: #535353;
+	}
+	#sliding-popup.sliding-popup-bottom {
+		background-color: rgba(242, 243, 244, 0.9);
 	}
 
 /*
