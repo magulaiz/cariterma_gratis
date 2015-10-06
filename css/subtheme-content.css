@@ -1,4 +1,18 @@
 /*
+Preface Regions
+*/
+
+.region.region-preface-first {
+    text-align: left;
+}
+.region.region-preface-second {
+    text-align: center;
+}
+.region.region-preface-third {
+    text-align: right;
+}
+
+/*
 Content styles
 */
 
