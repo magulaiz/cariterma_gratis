@@ -9,6 +9,12 @@ base theme = gratis
 ; CSS --------------------
 ; --- Your subtheme css files.
 stylesheets[all][] = css/subtheme-styles.css
+stylesheets[all][] = css/subtheme-header.css
+stylesheets[all][] = css/subtheme-menu.css
+stylesheets[all][] = css/subtheme-content.css
+stylesheets[all][] = css/subtheme-masonry.css
+stylesheets[all][] = css/subtheme-footer.css
+stylesheets[all][] = css/subtheme-flexslider.css
 
 ; Regions --------------------
 regions[top_links]       = Top Links
@@ -38,3 +44,28 @@ settings[theme_color_palette]  = orange
 settings[gratis_localcss]  = 0
 settings[gratis_custom_css_location]  = 0
 settings[gratis_page_style]  = 0
+
+; Fonts -----------------
+fonts[google_fonts_api][] = "Abel&subset=latin#regular"
+fonts[edge_fonts][] = "abril-fatface:i4#list-of-available-fonts"
+fonts[google_fonts_api][] = "Advent Pro&subset=latin-ext#200"
+fonts[google_fonts_api][] = "Aguafina Script&subset=latin#regular"
+fonts[google_fonts_api][] = "Aladin&subset=latin-ext#regular"
+fonts[google_fonts_api][] = "Aldrich&subset=latin#regular"
+fonts[google_fonts_api][] = "Cabin&subset=latin#regular"
+fonts[edge_fonts][] = "cabin-sketch:n7#list-of-available-fonts"
+fonts[edge_fonts][] = "cabin-sketch:n4#list-of-available-fonts"
+fonts[edge_fonts][] = "diplomata:n4#list-of-available-fonts"
+fonts[google_fonts_api][] = "EB Garamond&subset=latin-ext#regular"
+fonts[edge_fonts][] = "fredericka-the-great:n4#list-of-available-fonts"
+fonts[google_fonts_api][] = "Gentium Basic&subset=latin-ext#italic"
+fonts[edge_fonts][] = "geostar:n4#list-of-available-fonts"
+fonts[edge_fonts][] = "leckerli-one:n4#list-of-available-fonts"
+fonts[google_fonts_api][] = "Lobster Two&subset=latin#700italic"
+fonts[edge_fonts][] = "lobster-two:n7#list-of-available-fonts"
+fonts[edge_fonts][] = "lobster-two:i7#list-of-available-fonts"
+fonts[edge_fonts][] = "londrina-sketch:n4#list-of-available-fonts"
+fonts[edge_fonts][] = "nova-square:n4#list-of-available-fonts"
+fonts[edge_fonts][] = "unkempt:n7#list-of-available-fonts"
+fonts[edge_fonts][] = "unkempt:n4#list-of-available-fonts"
+fonts[edge_fonts][] = "yellowtail:n4#list-of-available-fonts"

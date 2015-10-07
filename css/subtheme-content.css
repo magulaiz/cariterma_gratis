@@ -1,0 +1,51 @@
+/*
+Preface Regions
+*/
+
+.region.region-preface-first {
+    text-align: left;
+}
+.region.region-preface-second {
+    text-align: center;
+}
+.region.region-preface-third {
+    text-align: right;
+}
+
+/*
+Content styles
+*/
+
+.l-content-wrap {
+    font-size: 14px;
+}
+
+
+/*
+Taxonomy term page
+*/
+
+div.taxonomy-term.vocabulary-actividades .content {
+	position: relative;
+}
+.vocabulary-actividades .field-type-text h2 {
+	position: absolute;
+	top: 20%;
+	background: rgba(0, 0, 0, 0.77) none repeat scroll 0% 0%;
+	padding: 10px 20px;
+	margin: 0px;
+	left: -10px;
+	color: #FFF;
+	font-size: 1.5em;
+}
+
+/*
+Social media links
+*/
+
+div#block-social-media-links-social-media-links {
+    text-align: center;
+}
+.social-media-links.platforms.inline.horizontal {
+    margin-left: 0;
+}
