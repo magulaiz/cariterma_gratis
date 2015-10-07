@@ -2,6 +2,9 @@
 Main menu block
 */
 
+div#menu-wrapper {
+    margin-bottom: 20px;
+}
 #block-system-main-menu ul {
     margin: 0;
     text-align: center;
