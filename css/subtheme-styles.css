@@ -277,10 +277,6 @@ MEDIA QUERIES
 			padding: 0;
 			height: 50px;
 		}
-
-		#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
-			position: fixed;
-		}
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
 			font-size: 1.1em;
 		}
