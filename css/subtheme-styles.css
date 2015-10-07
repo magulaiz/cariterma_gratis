@@ -27,7 +27,6 @@ ELEMENT-TAGS
 /*
 CLASS
 */
-
 	.color-palette-green a {
 		color: #8192b3;
 	}
@@ -59,18 +58,6 @@ CLASS
 		text-shadow: -1px -1px 1px black;
 		font-weight: 600;
 	}
-	.field-content.masonry-title {
-		width: 290px;
-		background-color: rgba(0, 0, 0, 0.58);
-		color: white;
-		font-size: 0.8em;
-		font-weight: 600;
-		padding: 5px;
-		position: absolute;
-		bottom: 0px;
-		z-index: 1;
-		margin: 5px;
-	}
 	.flexslider {
 		border: 0;
 		border-top: 8px solid #8192B3;
@@ -98,14 +85,8 @@ CLASS
 	.main-menu-wrapper > ul ul {
 		z-index: 100;
 	}
-	.masonry-item img {
-		border: 5px solid white;
-	}
 	.sliding-popup-bottom {
 		background: none;
-	}
-	.stickynav-active {
-		top: -8px;
 	}
 
 /*
@@ -150,6 +131,7 @@ MEDIA QUERIES
 		}
 
 	}
+	
 	@media screen and (min-width: 33.00em) and (max-width: 60em) {
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
 			font-size: 0.7em;
@@ -159,6 +141,7 @@ MEDIA QUERIES
 			position: relative;
 		}	
 	}
+
 	@media  (min-width: 0) and (max-width: 60.01em) {
 		.l-branding {
 			display: none;
@@ -179,6 +162,7 @@ MEDIA QUERIES
 			background-color: rgba(168, 171, 184, 0.97);
 		}
 	}
+
 	@media screen and (min-width: 0.47em) {
 
 			ul.elastic-grid figure,
@@ -194,7 +178,9 @@ MEDIA QUERIES
 					display: none;
 			}
 		}
+
 	@media screen and (min-width: 33.00em) {
+
 		ol.flex-control-nav.flex-control-paging {
 		  position: absolute;
 		  top: 80%;
@@ -218,6 +204,7 @@ MEDIA QUERIES
 			top: 50%;
 		}
 	}
+
 	@media screen and (min-width: 60.01em) {
 
 		blockquote {
@@ -287,9 +274,6 @@ MEDIA QUERIES
 		.nivo-caption {
 			width: 50%;
 			margin: 0 25%;
-		}
-		.stickynav-active .main-menu-wrapper {
-			height: 50px;
 		}
 		.stickynav-active ul.menu.primary {
 			padding: 0;

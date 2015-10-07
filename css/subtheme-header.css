@@ -1,0 +1,19 @@
+#block-views-flexsliders-block figure {
+    margin: 0px;
+}
+#block-views-flexsliders-block .field-name-field-title .field-item {
+    font-size: 0.8em;
+    position: absolute;
+    overflow: hidden;
+    width: 40%;
+    max-height: 50%;
+    padding: 5px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #C3C3C3;
+    font-weight: bold;
+    bottom: 0px;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+}
+
