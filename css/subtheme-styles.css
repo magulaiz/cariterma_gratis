@@ -75,6 +75,7 @@ CLASS
 	.l-footer-wrapper {
 		background-color: #F2F3F4;
 		color: #545454;
+		padding: 20px 0;
 	}
 	.l-off-canvas-show {
 		background: rgba(255,255,255,0.9) url("../images/theme-sprite.png") no-repeat scroll 0px 0px;
@@ -98,8 +99,14 @@ CLASS
 /*
 ATTRIBUTES
 */
+	#block-block-8 {
+	}
 	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items {
 		overflow: hidden;
+	}
+	#footer-credits {
+		color: #8192b3;
+		font-size: 0.8em;
 	}
 	#header-bar, blockquote  {
 		background: none;
@@ -152,9 +159,7 @@ MEDIA QUERIES
 			right: 85px;
 			position: absolute;
 		}
-
-	}
-	
+	}	
 	@media screen and (min-width: 33.00em) and (max-width: 60em) {
 		#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
 			font-size: 0.7em;
@@ -164,7 +169,6 @@ MEDIA QUERIES
 			position: relative;
 		}	
 	}
-
 	@media  (min-width: 0) and (max-width: 60.01em) {
 		.l-branding {
 			display: none;
@@ -185,24 +189,21 @@ MEDIA QUERIES
 			background-color: rgba(168, 171, 184, 0.97);
 		}
 	}
-
 	@media screen and (min-width: 0.47em) {
-			ul.elastic-grid figure,
-			.panel-bricks-25-75-stacked figure {
-					float: right;
-					margin: 0;
-					width: 50%;
-					padding: 0.1em;
-					min-width: 75px;
-			}
-			ul.elastic-grid figure figcaption,
-			.panel-bricks-25-75-stacked figure figcaption {
-					display: none;
-			}
+		ul.elastic-grid figure,
+		.panel-bricks-25-75-stacked figure {
+				float: right;
+				margin: 0;
+				width: 50%;
+				padding: 0.1em;
+				min-width: 75px;
 		}
-
+		ul.elastic-grid figure figcaption,
+		.panel-bricks-25-75-stacked figure figcaption {
+				display: none;
+		}
+	}
 	@media screen and (min-width: 33.00em) {
-
 		ol.flex-control-nav.flex-control-paging {
 		  position: absolute;
 		  top: 80%;
@@ -226,7 +227,6 @@ MEDIA QUERIES
 			top: 50%;
 		}
 	}
-
 	@media screen and (min-width: 60.01em) {
 		blockquote {
 			border: 0;
