@@ -12,6 +12,10 @@ ELEMENT-TAGS
 	body.admin-menu.adminimal-menu::before {
 		height: 0;
 	}
+	/* Seletor only for fix local bug */
+	h3.site-slogan {
+		font-family: 'Play';
+	}
 	ul.elastic-grid figure,
 	.panel-bricks-25-75-stacked figure {
 		float: none;
