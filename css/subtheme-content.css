@@ -45,9 +45,9 @@ div#block-social-media-links-social-media-links {
 /*
 Block Styles
 */
-.block-block-1 {
+#block-block-1 {
     float: left;
 }
-.block-block-3 {
+#block-block-3 {
     float: right;
 }
