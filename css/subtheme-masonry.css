@@ -1,41 +1,31 @@
 .masonry-item img {
-    margin: 2%;
-    width: 96%;
+	margin: 2%;
+	width: 96%;
 }
 .field-content.masonry-title a {
-    background-color: rgba(0, 0, 0, 0.58);
-    color: #FFF;
-    font-size: 0.8em;
-    font-weight: 600;
-    padding: 2%;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
-    margin: 2%;
-    width: 96%;
+	background-color: rgba(0, 0, 0, 0.58);
+	color: #FFF;
+	font-size: 0.8em;
+	font-weight: 600;
+	padding: 2%;
+	position: absolute;
+	bottom: 0px;
+	z-index: 1;
+	margin: 2%;
+	width: 96%;
 }
 @media screen and (min-width: 0) {
-.masonry-item {
-    width: 100%;
-}
+	.masonry-item {
+		width: 100%;
+	}
 }
 @media screen and (min-width: 21em) {
-.masonry-item {
-    width: 50%;
-}
-}
-@media screen and (min-width: 33em) {
-.masonry-item {
-    width: 33%;
-}
+	.masonry-item {
+		width: 50%;
+	}
 }
 @media screen and (min-width: 45em) {
-.masonry-item {
-    width: 25%;
-}
-}
-@media screen and (min-width: 60.01em) {
-.masonry-item {
-    width: 20%;
-}
+	.masonry-item {
+			width: 25%;
+	}
 }
