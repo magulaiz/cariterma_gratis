@@ -30,4 +30,6 @@
 #header-bar, blockquote  {
 	background: none;
 }
-
+#flexslider-1 .jumbotron {
+    background: transparent;
+}
