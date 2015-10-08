@@ -15,6 +15,7 @@ stylesheets[all][] = css/subtheme-content.css
 stylesheets[all][] = css/subtheme-masonry.css
 stylesheets[all][] = css/subtheme-footer.css
 stylesheets[all][] = css/subtheme-flexslider.css
+stylesheets[all][] = css/subtheme-queries.css
 
 ; Regions --------------------
 regions[top_links]       = Top Links
