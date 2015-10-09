@@ -1,7 +1,3 @@
-.masonry-item img {
-	margin: 2%;
-	width: 96%;
-}
 .field-content.masonry-title a {
 	background-color: rgba(0, 0, 0, 0.58);
 	color: #FFF;
@@ -14,6 +10,26 @@
 	margin: 2%;
 	width: 96%;
 }
+.masonry-item img {
+	margin: 2%;
+	width: 96%;
+}
+.nav-pills>li.active>a {
+	border: 1px solid #AAB2BD;
+  background-color: transparent;
+	color: #545454;
+}
+.nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: #8192b3;
+}
+.preface .block {
+	display: inline-block;
+	vertical-align: top;
+}
+/*#block-block-9, #block-block-10 {
+	display: inline-block;
+	vertical-align: top;
+}*/
 @media screen and (min-width: 0) {
 	.masonry-item {
 		width: 100%;
