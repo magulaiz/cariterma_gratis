@@ -95,8 +95,8 @@
 		border: 0;
 	}
 	ul.menu.primary {
-		margin: 15px 10px 0 10px;
 		font-size: 1em;
+		margin: 15px 10px 0 10px;
 	}
 	.color-palette-green .l-menu-wrapper {
 		background-color: rgba(255, 255, 255,1);
@@ -122,14 +122,15 @@
 		text-transform: uppercase;
 		vertical-align: top;
 	}
-	.l-menu-wrapper .list-margin, .l-menu-wrapper ul li, ul .l-menu-wrapper li, .l-menu-wrapper ol li, ol .l-menu-wrapper li {
-		margin-top: 3px;
-	}
-	.l-menu-wrapper ul.menu a.alink:hover, .l-menu-wrapper ul.menu a.active-trail {
-		background-color: rgba(126, 129, 138,0.1);
+	.l-menu-wrapper ul.menu a.alink:hover {
+		background-color: transparent;
+		color: #8192b3;
+		border-bottom: 5px solid #8192b3;
+		padding-bottom: 0;
 		text-transform: uppercase;
-		margin: 10px 0 0 0;
-		padding: 7px 7px 7px 15px;
+		-webkit-transition: all 0.25 ease-in;
+		-o-transition: all 0.25 ease-in;
+		transition: all 0.25 ease-in;
 	}
 	.l-logo {
 		display: inline-block;
@@ -145,15 +146,28 @@
 		color: #535353;
 		font-size: 0.8em;
 	}
+	.main-menu-wrapper > ul > li {
+		border-right: 0;
+		margin-top: 3px;
+	}
 	.main-menu-wrapper > ul > li > a {
 		float: none;
-		padding: 7px 7px 7px 15px;
+		padding: 7px 3px 7px 7px;
 	}
-	.main-menu-wrapper > ul > li > a:hover, .main-menu-wrapper > ul > li > a.active {
-		background-color: inherit;
+	.main-menu-wrapper > ul > li::after {
+		content: "|";
+		color: #535353;
+		margin-left: 0;
+	}
+	.main-menu-wrapper > ul > li.first::before {
+		content: "|";
+		color: #535353;
+		margin-right: 0;
+	}
+	.main-menu-wrapper > ul > li > a.active {
+		background-color: transparent;
 		color: rgb(15, 15, 15);
-		font-size: 0.82em;
-		font-weight: bolder;
+		font-weight: bold;
 	}
 	.masonry-item {
    	width: 20%;

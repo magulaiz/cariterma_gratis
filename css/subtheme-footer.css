@@ -18,13 +18,13 @@
 		margin: 0;
 		vertical-align: top;   
 }
+#block-system-main-menu li.first {
+		border: medium none;
+}
 #block-system-main-menu li::after {
 		content: "|";
 		color: #8192b3;
 		margin-left: 5px;
-}
-#block-system-main-menu li.first {
-		border: medium none;
 }
 #block-system-main-menu li.first::before {
 		content: "|";

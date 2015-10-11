@@ -4,3 +4,6 @@ Main menu block
 div#menu-wrapper {
 		margin-bottom: 20px;
 }
+.main-menu-wrapper > ul ul {
+	z-index: 100;
+}

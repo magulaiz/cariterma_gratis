@@ -14,11 +14,13 @@ ELEMENT-TAGS
 	/* Seletor only for fix local bug */
 	h3.site-slogan {
 		font-family: 'Play';
+		color: #7e818a;
+		margin-right: 10px;
 	}
 	ul.elastic-grid figure,
 	.panel-bricks-25-75-stacked figure {
 		float: none;
-		margin: 0px;
+		margin: 0;
 		width: 100%;
 		padding: 0.1em;
 	}
@@ -71,7 +73,4 @@ CLASS
 		height: 40px;
 		top: 8px;
 		width: 260px;
-	}
-	.main-menu-wrapper > ul ul {
-		z-index: 100;
 	}
