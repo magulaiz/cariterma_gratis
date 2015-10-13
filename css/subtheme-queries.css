@@ -13,10 +13,9 @@
 		right: 85px;
 		position: absolute;
 	}
-	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
 		font-weight: bolder;
-		height: 100px;
 		overflow: visible;
 		padding: 0 15px;
 		width: 100%;
@@ -28,7 +27,6 @@
 		margin-bottom: 0;
 	}
 	.jumbotron {
-		max-height: 10%;
 		padding: 10px 0 0 0;
 	}
 	.l-content-wrap {
@@ -36,7 +34,7 @@
 	}
 }	
 @media screen and (min-width: 33.00em) and (max-width: 60em) {
-	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+#block-views-flexsliders-block .field-name-field-text .field-item {
 		font-size: 0.7em;
 	}
 	.l-logo {
@@ -87,7 +85,7 @@
 	.masonry-item {
    	width: 33%;
 	}
-	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-items{
+#block-views-flexsliders-block .field-name-field-text .field-items{
 		background-color: rgba(255, 255, 255, 0.76);
 		height: 100%;
 		left:55%;			
@@ -96,7 +94,7 @@
 		top: 0;
 		width: 45%;
 	}
-	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
 		position: relative;
 	  -webkit-transform: translateY(-50%);
@@ -195,7 +193,7 @@
 	#block-simple-taxonomy-menu-simple-taxonomy-menu-1 {
 		position: fixed;
 	}
-	#block-views-flexsliders-block .field-name-field-title .field-item, #block-views-flexsliders-block .field-name-field-text .field-item {
+	#block-views-flexsliders-block .field-name-field-text .field-item {
 		font-size: 1.1em;
 	}
 	#gallery-title a {
