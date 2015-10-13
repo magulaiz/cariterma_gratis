@@ -5,13 +5,8 @@
 	}
 	.flex-control-nav.flex-control-paging {
 		position: relative;
-		margin-top: -80px;
+		margin-top: -254px;
 		z-index: 102;
-	}
-	.l-logo {
-		top: -25px;
-		right: 85px;
-		position: absolute;
 	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
@@ -24,16 +19,10 @@
 	}
 	.jumbotron {
 		margin-bottom: 0;
-		padding: 20px 15px 0 15px;
+		padding: 25px 15px 0 15px;
 	}
 	.l-content-wrap {
-		margin: -20px;
-	}
-	.slides {
-	background: white;
-	}
-	.slides {
-	background: white;
+		margin: -10px;
 	}
 }	
 @media screen and (min-width: 33.00em) and (max-width: 60em) {
