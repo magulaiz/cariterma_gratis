@@ -8,6 +8,9 @@
 		margin-top: -254px;
 		z-index: 102;
 	}
+	.l-content-wrap {
+		margin: -10px;
+	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
 		font-weight: bolder;
@@ -17,14 +20,19 @@
 	#block-views-flexsliders-block .field-name-field-image figure {
 		margin: 0;
 	}
-	.jumbotron {
+	#flexslider-1 .jumbotron {
 		margin-bottom: 0;
 		padding: 25px 15px 0 15px;
 	}
-	.l-content-wrap {
-		margin: -10px;
+}
+@media screen and (min-width: 33.00em) and (max-width: 50em) {
+	#flexslider-1 .jumbotron {
+		font-size: 0.8em;
 	}
-}	
+	#flexslider-1 .jumbotron p {
+		font-size: 1.2em;
+	}
+}
 @media screen and (min-width: 33.00em) and (max-width: 60em) {
 	.l-content-wrap {
 		margin: 0;
@@ -32,7 +40,7 @@
 	.l-logo {
 		margin-top: -55px;
 		position: relative;
-	}	
+	}
 }
 @media  (min-width: 0) and (max-width: 60.01em) {
 	.l-branding {
