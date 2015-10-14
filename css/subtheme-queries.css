@@ -1,28 +1,24 @@
 @media screen and (min-width: 0) and (max-width: 33.00em) {
-	div#menu-wrapper {
-  	margin-bottom: 0;
-  	padding-bottom: 0;
-	}
 	.flex-control-nav.flex-control-paging {
-		position: relative;
-		margin-top: -254px;
+		position: absolute;
+		top: 100px;
 		z-index: 102;
 	}
 	.l-content-wrap {
-		margin: -10px;
+		margin-top: -70px;
 	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
 		font-weight: bolder;
+		height: 170px;
+		line-height: 1.3em;
+		margin-bottom: 0;
 		overflow: hidden;
+		padding: 0 10px 0 15px;
 		width: 100%;
 	}
 	#block-views-flexsliders-block .field-name-field-image figure {
 		margin: 0;
-	}
-	#flexslider-1 .jumbotron {
-		margin-bottom: 0;
-		padding: 25px 15px 0 15px;
 	}
 }
 @media screen and (min-width: 33.00em) and (max-width: 50em) {
@@ -43,6 +39,9 @@
 	}
 }
 @media  (min-width: 0) and (max-width: 60.01em) {
+	div#menu-wrapper {
+		background-color: white;
+	}
 	.l-branding {
 		display: none;
 	}		
@@ -54,6 +53,9 @@
 	}
 	.l-menu-wrapper ul.menu, .l-menu-wrapper ul.menu a.active-trail {
 		background: #6f7177;
+	}
+	.slides {
+		background-color: white;
 	}
 	.stickynav-active {
 		top: -8px;
@@ -108,6 +110,9 @@
 @media screen and (min-width: 60.01em) {
 	blockquote {
 		border: 0;
+	}
+	div#menu-wrapper {
+		padding: 20px 0;
 	}
 	ul.menu.primary {
 		font-size: 1em;
