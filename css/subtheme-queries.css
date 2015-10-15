@@ -1,31 +1,32 @@
 @media screen and (min-width: 0) and (max-width: 33.00em) {
 	.flex-control-nav.flex-control-paging {
 		position: absolute;
-		top: 100px;
+		top: 41%;
 		z-index: 102;
+		height: 10%;
 	}
 	.l-content-wrap {
-		margin-top: -70px;
+		padding-top: 0;
+		margin-top: -90px;
 	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
 		font-weight: bolder;
-		height: 170px;
-		line-height: 1.3em;
-		margin-bottom: 0;
-		overflow: hidden;
+/*		height: 120px;
+*/	line-height: 1.3em;
 		padding: 0 10px 0 15px;
 		width: 100%;
+		margin: 0;
 	}
 	#block-views-flexsliders-block .field-name-field-image figure {
 		margin: 0;
 	}
 }
 @media screen and (min-width: 33.00em) and (max-width: 50em) {
-	#flexslider-1 .jumbotron {
+	#flexslider-1 {
 		font-size: 0.8em;
 	}
-	#flexslider-1 .jumbotron p {
+	#flexslider-1 p {
 		font-size: 1.2em;
 	}
 }
@@ -40,7 +41,7 @@
 }
 @media  (min-width: 0) and (max-width: 60.01em) {
 	div#menu-wrapper {
-		background-color: white;
+		background-color: transparent;
 	}
 	.l-branding {
 		display: none;
@@ -213,3 +214,8 @@
 		font-weight: bold;
 	}
 }
+@media screen and (min-width:60.01em) {
+		div#menu-wrapper {
+				padding: 5px 0;
+			}
+	}
