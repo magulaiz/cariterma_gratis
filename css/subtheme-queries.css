@@ -1,13 +1,21 @@
 @media screen and (min-width: 0) and (max-width: 33.00em) {
 	.flex-control-nav {
+		height: 20px;
+		top: 140px;
+		padding-top: 3px;
 		position: absolute;
-		top: 150px;
 		z-index: 102;
-		height: 10%;
+	}
+	.flex-direction-nav a {
+		top: 65px;
+		z-index: 103;
 	}
 	.l-content-wrap {
-		padding-top: 0;
-		margin-top: -90px;
+		padding: 0;
+		margin: 0;
+	}
+	.slides:after {
+		display: block;
 	}
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
@@ -15,17 +23,10 @@
 		line-height: 1.3em;
 		padding: 0 10px 0 15px;
 		width: 100%;
-		margin: 0;
+		margin-bottom: -70px;
 	}
 	#block-views-flexsliders-block .field-name-field-image figure {
 		margin: 0;
-	}
-	.flex-nav-prev, .flex-nav-next {
-		position: relative;
-		top: 60px;
-	}
-	.slides:after {
-		position: absolute;
 	}
 }
 @media screen and (min-width: 33.00em) and (max-width: 50em) {
@@ -69,7 +70,7 @@
 	}
 	#off-canvas-left {
 		background-color: rgba(168, 171, 184, 0.97);
-		z-index: 103;
+		z-index: 104;
 	}
 }
 @media screen and (min-width: 0.47em) {
