@@ -22,3 +22,6 @@
 #flexslider-1 .jumbotron {
 	background: transparent;
 }
+.flex-direction-nav a:before {
+	font-size: 2em;
+}
