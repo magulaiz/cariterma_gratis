@@ -1,7 +1,7 @@
 @media screen and (min-width: 0) and (max-width: 33.00em) {
-	.flex-control-nav.flex-control-paging {
+	.flex-control-nav {
 		position: absolute;
-		top: 41%;
+		top: 150px;
 		z-index: 102;
 		height: 10%;
 	}
@@ -12,14 +12,20 @@
 	#block-views-flexsliders-block .field-name-field-text .field-item {
 		color: #535353;
 		font-weight: bolder;
-/*		height: 120px;
-*/	line-height: 1.3em;
+		line-height: 1.3em;
 		padding: 0 10px 0 15px;
 		width: 100%;
 		margin: 0;
 	}
 	#block-views-flexsliders-block .field-name-field-image figure {
 		margin: 0;
+	}
+	.flex-nav-prev, .flex-nav-next {
+		position: relative;
+		top: 60px;
+	}
+	.slides:after {
+		position: absolute;
 	}
 }
 @media screen and (min-width: 33.00em) and (max-width: 50em) {
