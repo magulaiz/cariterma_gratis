@@ -152,6 +152,12 @@
 	}
 	div#menu-wrapper {
 		padding: 5px 0;
+<<<<<<< HEAD
+=======
+	}
+	ul.menu.primary {
+		margin: 15px 10px 0 10px;
+>>>>>>> 72ecbdf2b8531cb1120e8aeba9d12b0cd38b251e
 	}
 	.color-palette-green .l-menu-wrapper {
 		background-color: rgba(255, 255, 255,1);
@@ -191,6 +197,7 @@
 	}
 	.main-menu-wrapper > ul {
 		color: #535353;
+		display: inline-block;
 		vertical-align: top;
 	}
 	.main-menu-wrapper > ul a {
@@ -201,6 +208,9 @@
 		border-right: 0;
 		margin-top: 3px;
 	}
+	.main-menu-wrapper li:hover > a {
+    color: #535353;
+  }
 	.main-menu-wrapper > ul > li > a {
 		float: none;
 		padding: 7px 3px 14px 7px;
