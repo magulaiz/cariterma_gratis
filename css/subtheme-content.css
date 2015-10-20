@@ -15,7 +15,9 @@ Content styles
 */
 .l-content-wrap {
     font-size: 14px;
-    padding-top: 50px;
+}
+body.not-front .l-content-wrap {
+    padding-top: 70px;
 }
 /*
 Taxonomy term page
