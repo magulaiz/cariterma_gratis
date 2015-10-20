@@ -138,10 +138,7 @@
 	}
 }
 @media screen and (min-width: 61em) {
-	ul.menu.primary {
-		font-size: 0.9em;
-	}
-	ul.menu.primary i.fa fa-home {
+	ul.menu.primary i.fa.fa-home {
 		font-size: 1.5em;
 	}
 }
