@@ -137,6 +137,14 @@
 		font-size: 0.9em;
 	}
 }
+@media screen and (min-width: 61em) {
+	ul.menu.primary {
+		font-size: 0.9em;
+	}
+	ul.menu.primary i.fa fa-home {
+		font-size: 1.5em;
+	}
+}
 @media screen and (min-width: 60.01em) {
 	blockquote {
 		border: 0;
@@ -145,7 +153,6 @@
 		padding: 5px 0;
 	}
 	ul.menu.primary {
-		font-size: 1em;
 		margin: 15px 10px 0 10px;
 	}
 	.color-palette-green .l-menu-wrapper {
@@ -197,6 +204,9 @@
 		border-right: 0;
 		margin-top: 3px;
 	}
+	.main-menu-wrapper li:hover > a {
+    color: #535353;
+  }
 	.main-menu-wrapper > ul > li > a {
 		float: none;
 		padding: 7px 3px 14px 7px;
@@ -205,9 +215,6 @@
 		content: "|";
 		color: #535353;
 		margin-left: 0;
-	}
-	.main-menu-wrapper > ul > li::after:hover {
-		color: #8192b3;
 	}
 	.main-menu-wrapper > ul > li.first::before {
 		content: "|";

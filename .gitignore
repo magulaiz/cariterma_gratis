@@ -87,14 +87,15 @@ bower_components
 bower_components/
 
 # --------------------
-# App Files
-# --------------------
-
-# --------------------
 # vim Files
 # --------------------
 *.swp
 
+# --------------------
+# Sublime-text
+# --------------------
+*.sublime-project
+*.sublime-workspace
 # --------------------
 # Specifics
 # --------------------
@@ -102,3 +103,5 @@ public/lib
 app/tests/coverage/
 .idea/
 snippets.css
+
+
