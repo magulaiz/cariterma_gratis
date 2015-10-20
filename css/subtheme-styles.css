@@ -39,9 +39,14 @@ CLASS
 	}
 	.color-palette-green .item-list-pager li.pager-current:hover {
 		background-color: rgba(129, 146, 179, 0.9);
+		border-radius: 4px;
+	}
+	.color-palette-green .item-list-pager li a {
+		border-radius: 0;
 	}
 	.color-palette-green .item-list-pager li a:hover {
   	background-color: rgba(129, 146, 179, 0.6);
+  	border-radius: 4px;
 	}
 	.elastic-grid {
 		text-align: center;
