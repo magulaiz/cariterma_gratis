@@ -178,6 +178,7 @@
 	}
 	.main-menu-wrapper > ul {
 		color: #535353;
+		display: inline-block;
 		vertical-align: top;
 	}
 	.main-menu-wrapper > ul a {
