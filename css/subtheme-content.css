@@ -25,10 +25,6 @@ div#block-social-media-links-social-media-links {
 .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
 	background-color: rgba(129, 146, 179, 0.6);
 }
-.popup-element-body {
-	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
-	border: 1px solid rgb(242, 243, 244);
-}
 .preface .block {
 	display: inline-block;
 	margin: 10px 0 0 0;
