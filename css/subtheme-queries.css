@@ -56,8 +56,8 @@
 	div#menu-wrapper {
 		background-color: transparent;
 	}
-	i.fa.fa-home {
-  	font-size: 2em;
+	ul.menu.primary i.fa.fa-home {
+  	font-size: 1.7em;
 	}
 	.main-menu-wrapper {
 	  background-color: rgba(168, 171, 184, 0.97);
