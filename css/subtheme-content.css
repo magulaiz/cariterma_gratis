@@ -1,6 +1,39 @@
-/*
-Preface Regions
-*/
+body.not-front .l-content-wrap {
+    padding-top: 70px;
+}
+div.taxonomy-term.vocabulary-actividades .content {
+	position: relative;
+}
+div#block-social-media-links-social-media-links {
+    text-align: center;
+}
+.l-content-wrap {
+    font-size: 14px;
+}
+.l-preface.l-setwidth {
+  margin-top: 10px;
+}
+.nav-pills>li.active>a {
+	border: 1px solid #AAB2BD;
+  background-color: transparent;
+	color: #8192b3;
+	font-size: 1.4em;
+	font-weight: bolder;
+	margin: 0;
+	padding: 4px 25px;
+}
+.nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: rgba(129, 146, 179, 0.6);
+}
+.popup-element-body {
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+	border: 1px solid rgb(242, 243, 244);
+}
+.preface .block {
+	display: inline-block;
+	margin: 10px 0 0 0;
+	vertical-align: top;
+}
 .region.region-preface-first {
     text-align: left;
 }
@@ -10,20 +43,8 @@ Preface Regions
 .region.region-preface-third {
     text-align: right;
 }
-/*
-Content styles
-*/
-.l-content-wrap {
-    font-size: 14px;
-}
-body.not-front .l-content-wrap {
-    padding-top: 70px;
-}
-/*
-Taxonomy term page
-*/
-div.taxonomy-term.vocabulary-actividades .content {
-	position: relative;
+.social-media-links.platforms.inline.horizontal {
+    margin-left: 0;
 }
 .vocabulary-actividades .field-type-text h2 {
 	position: absolute;
@@ -35,26 +56,3 @@ div.taxonomy-term.vocabulary-actividades .content {
 	color: #FFF;
 	font-size: 1.5em;
 }
-/*
-Social media links
-*/
-div#block-social-media-links-social-media-links {
-    text-align: center;
-}
-.social-media-links.platforms.inline.horizontal {
-    margin-left: 0;
-}
-#block-block-1 {
-    float: left;
-}
-#block-block-3 {
-    float: right;
-}
-/*
-Categories
-*/
-.popup-element-body {
-    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
-    border: 1px solid rgb(242, 243, 244);
-}
-
