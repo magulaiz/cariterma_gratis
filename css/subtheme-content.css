@@ -50,3 +50,11 @@ div#block-social-media-links-social-media-links {
 #block-block-3 {
     float: right;
 }
+/*
+Categories
+*/
+.popup-element-body {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(242, 243, 244);
+}
+
