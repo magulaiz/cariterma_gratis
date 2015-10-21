@@ -14,26 +14,6 @@
 	margin: 2%;
 	width: 96%;
 }
-.nav-pills>li.active>a {
-	border: 1px solid #AAB2BD;
-  background-color: transparent;
-	color: #8192b3;
-	font-size: 1.4em;
-	font-weight: bolder;
-	margin: 0;
-	padding: 4px 25px;
-}
-.nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-	background-color: rgba(129, 146, 179, 0.6);
-}
-.preface .block {
-	display: inline-block;
-	margin: 0;
-	vertical-align: top;
-}
-#block-block-10 {
-	margin-top: 15px;
-}
 @media screen and (min-width: 0) {
 	.masonry-item {
 		width: 100%;
