@@ -15,7 +15,7 @@ div#block-social-media-links-social-media-links {
 }
 .nav-pills>li.active>a {
 	border: 1px solid #AAB2BD;
-  background-color: transparent;
+  background-color: rgb(255, 255, 255);
 	color: #8192b3;
 	font-size: 1.4em;
 	font-weight: bolder;
@@ -23,7 +23,7 @@ div#block-social-media-links-social-media-links {
 	padding: 4px 25px;
 }
 .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-	background-color: rgba(129, 146, 179, 0.6);
+	background-color: rgb(129, 146, 179);
 }
 ol.search-results {
 	margin: 0px;
