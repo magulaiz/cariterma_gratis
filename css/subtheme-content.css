@@ -34,7 +34,7 @@ ol.search-results {
 .search-api-page-results > h2 {
     display: none;
 }
-.page-search-facet {
+.page-search-facets {
     z-index: 1;
     position: absolute;
     right: 1em;
