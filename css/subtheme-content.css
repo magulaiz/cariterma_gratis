@@ -37,7 +37,6 @@ ol.search-results {
 .page-search-facets {
     z-index: 1;
     position: absolute;
-    right: 1em;
     top: 7em;
 }
 .preface .block {
