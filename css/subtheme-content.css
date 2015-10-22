@@ -34,10 +34,19 @@ ol.search-results {
 .search-api-page-results > h2 {
     display: none;
 }
+.page-search-facet {
+    z-index: 1;
+    position: absolute;
+    right: 1em;
+    top: 7em;
+}
 .preface .block {
 	display: inline-block;
 	margin: 10px 0 0 0;
 	vertical-align: top;
+}
+.region {
+	position: relative;
 }
 .region.region-preface-first {
     text-align: left;
