@@ -177,6 +177,10 @@
 	.flexslider { 
 		border-top: 15px solid #8192B3;
 	}
+	.l-content-wrapper {
+		margin: 0px;
+		padding: 0px;
+	}
 	.l-branding {
 		display: inline-block;
 		margin: 13px 0 0 10px;
