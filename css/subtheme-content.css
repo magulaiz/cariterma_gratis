@@ -34,10 +34,14 @@ ol.search-results {
 .search-api-page-results > h2 {
     display: none;
 }
-.page-search-facets {
+.page-search-facets h2 {
     z-index: 1;
     position: absolute;
-    top: 7em;
+    left: -10px;
+    background: rgba(0, 0, 0, 0.67) none repeat scroll 0% 0%;
+    top: 10px;
+    color: white;
+    padding: 10px 20px;
 }
 .preface .block {
 	display: inline-block;
