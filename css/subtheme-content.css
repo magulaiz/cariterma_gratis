@@ -15,12 +15,15 @@ div#block-social-media-links-social-media-links {
 }
 .nav-pills>li.active>a {
 	border: 1px solid #AAB2BD;
-  background-color: rgb(255, 255, 255);
-	color: #8192b3;
 	font-size: 1.4em;
 	font-weight: bolder;
 	margin: 0;
 	padding: 4px 25px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.67);
+	border-radius: 0;
 }
 .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
 	background-color: rgb(129, 146, 179);
